@@ -265,7 +265,8 @@ main {
 
     .navbar,
     .navbar>ul,
-    .teams {
+    .teams 
+     {
         flex-direction: column;
         padding: 20px;
     }
@@ -277,6 +278,14 @@ main {
     .teams-conteinar {
         margin-top: 20px;
     }
+
+    .features{
+        flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -285,5 +294,25 @@ main {
     .navbar>ul {
         flex-direction: column;
         padding: 20px;
+    }
+    .teams 
+    {
+       flex-direction: column;
+       padding: 20px;
+   }
+
+   .teams-img {
+       grid-template-columns: 1fr;
+   }
+
+   .teams-conteinar {
+       margin-top: 20px;
+   }
+    .features{
+        flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
+        margin-left: 0px;
     }
 }
