@@ -136,8 +136,77 @@ main {
     margin-top: 20px;
 }
 
+/* feature section styles */
 
+.features {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
 
+}
+
+.feature-tittle {
+    color: var(--dark-01, #131313);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.tittle-text {
+    color: var(--dark-03, #727272);
+
+    font-size: 1rem;
+
+    font-weight: 400;
+
+}
+
+.box {
+
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0;
+
+}
+
+.box-tittle {
+    padding: 30px 40px 10px 40px;
+    margin-bottom: 0;
+}
+
+.box-text {
+    padding: 0px 40px 30px 40px;
+
+}
+
+.feature-img img{
+    height: 90%;
+    margin-left: 50px;
+}
+
+.badge-10years {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 200px;
+    padding: 40px 15px;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+.badge-10years h2 {
+    color: #FFF;
+
+    margin: 0px;
+    font-size: 2.2rem;
+
+    font-weight: 700;
+}
 
 
 
@@ -201,15 +270,17 @@ main {
         padding: 20px;
     }
 
-    .teams-img{
+    .teams-img {
         grid-template-columns: 1fr;
     }
-   .teams-conteinar{
-    margin-top: 20px;
-   }
+
+    .teams-conteinar {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
+
     .navbar,
     .navbar>ul {
         flex-direction: column;
